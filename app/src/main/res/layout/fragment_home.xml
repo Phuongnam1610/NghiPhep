@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle426"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/thang"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/nunitobold"-->
+<!--                    android:text="Tháng 9"-->
+<!--                    android:textColor="#2E3A59"-->
+<!--                    android:textSize="@dimen/_20sdp" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:fontFamily="@font/nunitobold"-->
+<!--                    android:text="2023"-->
+<!--                    android:textColor="#2E3A59"-->
+<!--                    android:textSize="@dimen/_20sdp" />-->
+
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:id="@+id/btnlichsu"
+
+                android:paddingStart="@dimen/_10sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/timkiem"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/iconkinh"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:adjustViewBounds="true"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:src="@drawable/group_43"
+
+                    />
+
+                <TextView
+                    android:id="@+id/lichsu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunitobold"
+                    android:text="Lịch sử duyệt"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp" />
+
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+
+<!--            android:layout_marginTop="@dimen/_15sdp"-->
+<!--            android:id="@+id/rcvtuan"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:overScrollMode="never"-->
+<!--            android:layout_below="@id/thang"-->
+<!--            android:nestedScrollingEnabled="false"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuan">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvchuaduyet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chưa Duyệt"
+                android:layout_gravity="center"
+                android:textAppearance="@style/tvitem"
+                android:textSize="@dimen/_20sdp" />
+            <Button
+                android:layout_marginStart="@dimen/_20sdp"
+                android:id="@+id/btnchuaduyet"
+                android:layout_width="@dimen/_130sdp"
+                android:background="@drawable/bgdangnhap"
+                android:text="Chưa Duyệt"
+                android:visibility="invisible"
+                android:layout_gravity="center"
+                android:textAppearance="@style/quanlybtn"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvnghi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

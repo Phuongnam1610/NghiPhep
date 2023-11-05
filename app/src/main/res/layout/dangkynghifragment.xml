@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    >
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/progress"-->
+<!--        android:visibility="gone"-->
+<!--        android:clickable="false"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <ProgressBar-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerInParent="true" />-->
+
+
+<!--    </RelativeLayout>-->
+
+
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"/>
+    <TextView
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nghỉ"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"/>
+
+    <CalendarView
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:id="@+id/calendar"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày nghỉ*"
+        android:id="@+id/ngaynghi"
+        android:textSize="@dimen/_10sdp"
+        android:paddingStart="@dimen/_10sdp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:textSize="@dimen/_10sdp"
+        android:id="@+id/lichlamviec"
+        android:text="Lịch làm việc:"
+        android:paddingStart="@dimen/_10sdp"
+        />
+
+    <Button
+        android:id="@+id/btndangky"
+        android:layout_width="@dimen/_130sdp"
+        android:background="@drawable/bgdangnhap"
+        android:text="Đăng ký"
+        android:layout_gravity="center"
+        android:textAppearance="@style/quanlybtn"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+
+
+
+</LinearLayout>

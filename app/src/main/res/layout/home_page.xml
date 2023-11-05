@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_percent="0.3"
+
+        android:src="@drawable/rectangle_1" />
+
+    <ImageView
+        android:id="@+id/rectangle_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_percent="0.5"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/rectangle_2"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dangnhapbang"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/dangNhapLogin"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+
+        android:textAppearance="@style/dangNhap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_2" />
+
+
+
+    <ImageView
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:scaleType="fitXY"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintHeight_percent="0.2"
+        android:adjustViewBounds="true"
+
+        android:src="@drawable/rectangle_3" />
+    <LinearLayout
+        android:id="@+id/framebtn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintEnd_toEndOf="@id/dangnhapbang"
+        app:layout_constraintStart_toStartOf="@id/dangnhapbang"
+        app:layout_constraintTop_toBottomOf="@+id/dangnhapbang"
+        app:layout_constraintWidth_percent="1"
+        android:background="@android:color/transparent">
+
+        <Button
+            android:id="@+id/btnNhanVien"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/nhanvienbg"
+            android:text="Nhân Viên"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_weight="1"
+            android:textAppearance="@style/nhanvienbtn"/>
+
+        <Button
+            android:id="@+id/btnQuanLy"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/quanlybg"
+            android:text="Quản Lý"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:layout_weight="1"
+            android:textAppearance="@style/quanlybtn"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

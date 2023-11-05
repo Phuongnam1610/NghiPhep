@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <ImageView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/short_left"/>
+
+
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"/>
+    <TextView
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_height="wrap_content"
+        android:text="nghỉ"
+        android:fontFamily="@font/nunitobold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingStart="@dimen/_20sdp"
+        android:paddingEnd="@dimen/_20sdp"
+        android:background="@drawable/rectangle427"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--        <EditText-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:hint="Họ và tên*"-->
+        <!--            android:layout_marginBottom="@dimen/_10sdp"-->
+        <!--            android:textSize="@dimen/_10sdp"-->
+        <!--            android:paddingStart="@dimen/_10sdp"-->
+        <!--            android:background="@drawable/edtext"-->
+        <!--            />-->
+        <EditText
+            android:id="@+id/lido"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:hint="Lý do"
+            android:enabled="false"
+            android:textSize="@dimen/_10sdp"
+
+            android:gravity="top"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:background="@drawable/edtext"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ngày"
+            android:id="@+id/ngaynghi"
+            android:textSize="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:autofillHints="" />
+
+
+
+        <!--        <EditText-->
+        <!--            android:layout_marginBottom="@dimen/_10sdp"-->
+
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="@dimen/_30sdp"-->
+        <!--            android:hint="Ngày"-->
+        <!--            android:textSize="@dimen/_10sdp"-->
+
+        <!--            android:paddingStart="@dimen/_10sdp"-->
+        <!--            android:background="@drawable/edtext"-->
+        <!--            android:autofillHints="" />-->
+
+        <EditText
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:hint="Mã người hỗ trợ*"
+            android:enabled="false"
+            android:textSize="@dimen/_10sdp"
+            android:id="@+id/nguoihotro"
+            android:layout_marginBottom="@dimen/_10sdp"
+
+            android:paddingStart="@dimen/_10sdp"
+            android:background="@drawable/edtext"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trạng Thái Duyệt: "
+            android:id="@+id/trangthai"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:autofillHints="" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/guiyeucau"
+            android:layout_gravity="center"
+            android:text="Hủy yêu cầu"
+            android:id="@+id/guiyeucau"
+            android:textAppearance="@style/quanlybtn"
+            android:layout_height="@dimen/_30sdp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

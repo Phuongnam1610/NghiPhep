@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<solid android:color="@color/teal_200" /> <!-- Nền màu trắng -->
+    <stroke
+        android:width="@dimen/_1sdp" android:color="@color/white" /> <!-- Màu viền xanh -->
+    <corners android:radius="@dimen/_200sdp" /> <!-- Bo góc với bán kính 8dp -->
+</shape>

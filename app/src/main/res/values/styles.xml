@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dangNhap">
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">@color/bluemain</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="btndangNhap">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="nhanvienbtn">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">@color/txtnv</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="quanlybtn">
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="txtmsnv">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/nunitovariablefont</item>
+        <item name="android:textColor">@color/bluemain</item>
+
+
+
+    </style>
+
+    <style name="hintmsnv">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/nunitovariablefont</item>
+        <item name="android:textColor">#AFAFAF</item>
+    </style>
+
+    <style name="tvitem">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="chucvu">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="nhanvienvp">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/nunitobold</item>
+        <item name="android:textColor">#EF4637</item>
+    </style>
+
+
+
+</resources>

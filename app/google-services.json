@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456178674495",
+    "project_id": "nghiphep-b1cfa",
+    "storage_bucket": "nghiphep-b1cfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456178674495:android:0a36fe17708859226c018a",
+        "android_client_info": {
+          "package_name": "com.game.nghiphep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF28E0jo9gxRjfD6_XeC9g_HdnPHq1H6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
